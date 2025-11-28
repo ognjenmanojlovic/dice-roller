@@ -3,13 +3,13 @@
 This project is a small **Flask application** built to learn and
 practice:
 
--   Application Factory pattern\
--   Blueprints (`/api`)\
--   JSON API endpoints\
--   Custom exception handling\
--   Jinja2 templates\
--   Frontend interaction with JavaScript (`fetch`)\
--   Clean project structure\
+-   Application Factory pattern
+-   Blueprints (`/api`)
+-   JSON API endpoints
+-   Custom exception handling
+-   Jinja2 templates
+-   Frontend interaction with JavaScript (`fetch`)
+-   Clean project structure
 -   Git/GitHub workflow (main + development branches)
 
 The goal of the project was to understand how a real Flask application
@@ -96,7 +96,7 @@ Create a new dice:
 ```
 
 **Possible error responses:** - `400` → Invalid number of sides\
-- `409` → Dice already exists\
+- `409` → Dice already exists
 - `500` → Unexpected server error
 
 ------------------------------------------------------------------------
@@ -125,8 +125,8 @@ python -m flask --app src.app run --debug
 
 This project uses a professional workflow:
 
--   `main` → clean branch with README only\
--   `development` → full project with all commits\
+-   `main` → clean branch with README only
+-   `development` → full project with all commits
 -   All features are developed on `development`
 -   Final version merged into `main` via Pull Request
 
@@ -138,15 +138,15 @@ This mirrors a real-world team setup.
 
 The purpose was to:
 
--   learn Flask fundamentals\
--   understand API design\
--   work with Blueprints\
--   integrate JavaScript with the backend\
--   structure a clean Python project\
+-   learn Flask fundamentals
+-   understand API design
+-   work with Blueprints
+-   integrate JavaScript with the backend
+-   structure a clean Python project
 -   practice a real development workflow with Git
 
 ------------------------------------------------------------------------
 
 ## 🧑‍💻 Author
 
-**0gisha (ognjenmanojlovic)**\
+**0gisha (ognjenmanojlovic)**
