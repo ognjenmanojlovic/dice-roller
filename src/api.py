@@ -10,7 +10,6 @@ dices = [
     {"numberOfSides": 20},
 ]
 
-
 @api_bp.route("/dices", methods=["GET", "POST"])
 def handle_dice_requests():
     if request.method == "GET":
